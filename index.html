@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- bootstrap start -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- boostrap end -->
+    <!-- my style -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 1rem;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- CONTAINER START -->
+    <div class="box">
+      <!-- NAVIGATION START -->
+  <nav>
+    <div class="container-logo">
+     
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+      <!-- LIST ITEMS -->
+      <ul class="nav-links">
+        <div class="button-close">
+          <img src="images/icon-close-menu.svg" alt="" srcset="" />
+        </div>
+        <div class="nav-links__items">
+  
+      <!-- DROPDOWN START -->
+       <div class="nav-links__items__dropdown ">
+        <button> <li><a href="#">Features <img class='arrow1'src="images/icon-arrow-down.svg"></a></li></button>
+        
+       <ul class="nav-links__items__dropdown__subItems1">
+        
+  
+        
+        <div class="subItem">
+          <li ><img src="images/icon-todo.svg" alt="icon-todo">Todo List</li>
+        </div>
+        <div class="subItem">
+          <li><img src="images/icon-calendar.svg" alt="calentar">Calendar</li>
+        </div>
+        <div class="subItem">
+          <li><img src="images/icon-reminders.svg" alt="icon-reminders">Reminders</li>
+        </div>
+        <div class="subItem">
+          <li><img src="images/icon-planning.svg" alt="icon-planning">Planning</li>
+        </div>
+     
+       </ul>
+        <!-- DROPDOWN END -->
+       </div>
+       <!-- DROPDOWN START SECOND -->
+       <div class="nav-links__items__dropdown">
+        <button> <li><a href="#">Company<img class='arrow2'src="images/icon-arrow-down.svg"></a></li></button>
+        <ul class="nav-links__items__dropdown__subItems2">
+          <!-- <div class="subItem"> -->
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          <!-- </div> -->
+       </div>
+       <!-- DROPDOWN END SECOND -->
+        <li class="margin"><a href="#"> Careers</a></li>
+        <li class="margin"><a href="#"> About</a></li>
+      </div>
+        <!-- BTNS START-->
+        <div class="btn-container">
+          <button class="button">Login</button>
+          <button class="button">Register</button>
+        </div>
+        </ul>
+  <!-- BTNS END -->
+      </ul>
+    </div>
+      <!-- LINKS END -->
+      <!-- LINKS END -->
+<!-- BTNS END -->
+ <!-- BURGER START -->
+ <div class="burger">
+  <img src="images/icon-menu.svg" alt="" srcset="">
+</div>
+    
+<!-- BURGER END -->
+  </nav>
+  <!-- NAVIGATION END -->
+
+
+      <!-- MAIN START -->
+      <main>
+        <div class="main">
+    
+          <div class="main-logo">
+            <img class='mobile' src="images/image-hero-mobile.png" alt="landing logo" />
+            <img class='desktop' src="images/image-hero-desktop.png" alt="landing logo" />
+          </div>
+          <div class="main__info">
+          <!--  -->
+          <div class="main__info__wrap">
+            <h1>Make remote work</h1>
+            <p> Get your team in sync, no matter your location. Streamline processes,
+              create team rituals, and watch productivity soar.</p>
+            <button class="main__button">
+              Learn more
+            </button>
+            <div class="main__logos">
+              <img src="images/client-databiz.svg" alt="client-databiz">
+              <img src="images/client-audiophile.svg" alt="client-audiophile">
+              <img src="images/client-meet.svg" alt="client-meet">
+              <img src="images/client-maker.svg" alt="client-maker">
+           </div>
+        </div>
+      
+      </div>
+       <!--  -->
+      </div>
+        </main>
+      <!-- MAIN END -->
+  
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">supeOzzy</a>.
+      </div>
+    </div>
+    <!-- CONTAINER END -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
